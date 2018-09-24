@@ -1,0 +1,350 @@
+body
+{
+
+}
+
+/*Start upperNavBar*/
+.upperNavbar
+{
+    border-top:1px solid #eee;
+    border-bottom: 1px solid #eee;
+    height: 40px;
+   
+overflow: hidden;
+    
+}
+
+.upperNavbar .contentHead
+{
+    padding-top:10px;
+    color:#909090;
+        
+    animation-name: mody;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    position: relative;
+   
+}
+
+@keyframes mody
+{
+    0%{
+        top:0;
+    }
+        15%{
+        top:-40px
+    }
+        30%{
+     top:-80px
+    }
+        45%{
+         top:-120px
+    }
+        60%{
+        top:-80px;
+    }
+        75%{
+        top:-40px;
+    }
+        90%{
+        top:0px;
+    }
+         100%{
+        top:0px;
+
+
+    }
+}
+.upperNavbar ul
+{
+    padding-top: 10px;
+    margin: 0;
+}
+.upperNavbar ul li {
+ display: inline;
+padding-left: 15px;
+}
+.upperNavbar ul li i
+{
+    color:#B0B0B0
+}
+/*End upperNavBar*/
+.bg-light
+{
+    background-color: white !important;
+    margin-top: 10px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size:15px;
+}
+.bg-light .navbar-brand
+{
+    margin-left: 50px;
+}
+
+.iconSearch {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.form-inline .btn
+{
+    background: linear-gradient(to right, #e30a73, #feae04);
+    color:white;
+    border:none;
+    padding: 15px 30px ;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.navbar-collapse
+{
+    margin-right: 110px;
+    padding: 10px;
+}
+.bg-light .navbar-brand
+{
+    margin-left: 100px;
+}
+.menu 
+{
+    background-color: #eee;
+    padding: 30px;
+    border-bottom: 5px solid #E20378
+}
+.menu .newsMenu .col-md img
+{
+    width:90%;
+   margin-left: 10px
+}
+.menu .newsMenu .part2
+{
+        margin-left: -20px;
+}
+.menu .newsMenu .part2 p
+{
+    font-weight: bold;
+}
+.menu .newsMenu .part2 span
+{
+    color:gray;
+}
+
+.slider{
+    margin-top: 30px;
+}
+.slider .items
+{
+margin: 0;
+    padding: 0;
+}
+.carousel-inner
+{
+
+    border:1px solid #eee;
+}
+
+.mo
+{
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+    
+
+}
+
+
+.itemreset
+{
+    padding: 0;
+    width:100%;
+    width: 100%;
+    margin: 0;
+   overflow: hidden;
+}
+.itemhov1
+{
+        transition: all 0.5s ease-in-out;
+    overflow: hidden;
+}
+.itemhov1:hover
+{
+     transform: scale(1.1)
+}
+.itemhov
+{
+      transition: all 0.5s ease-in-out;
+    overflow: hidden;
+}
+.itemhov:hover
+{
+     transform: scale(1.1)
+}
+.mainslide
+{
+    height: 427px;
+    text-align: left;
+    transition: all 0.5s ease-in-out
+}
+.mainslide:hover
+{
+    transform: scale(1.2)
+}
+.contents
+{
+    margin-top: 50px;
+}
+.via
+{
+    font-weight: bold
+        
+}
+.badge
+{
+    cursor: pointer;
+}
+.card
+{
+    border:none;
+}
+.card-text
+{
+    font-weight: bold;
+    
+}
+.formss
+{
+     background: linear-gradient(to right, #e30a73, #feae04);
+        height: 450px;
+    
+}
+.formss h2
+{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    color:white;
+}
+#inputEmail3, #inputPassword3
+{
+    padding: 10px;
+    margin-top: 30px;
+}
+.btn-success 
+{
+        padding: 10px 150px 10px 150px;
+    margin-top: 70px;
+}
+.contentsTwo
+{
+    margin-top: 50px;
+}
+.anzl
+{
+    cursor: pointer;
+}
+.pos
+{
+ 
+    width:350px;
+    
+}
+.slidee
+{
+    
+    background-image: url("https://media.giphy.com/media/1AfsjPVYnQj7gjxw5s/giphy.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+
+    
+}
+.anzl
+{
+    border:2px solid #eee;
+    border-radius: 50%;
+    padding: 30px;
+}
+ .innerSlide{
+    background-color: rgba(0,0,0,0.5);
+     height: 100%;
+}
+.slidee .innerSlide h1
+{
+color: #fff;
+    font-size: 5em;
+    font-weight: 400;
+    font-family: 'Passion One', cursive;
+    margin-top: 250px;
+    display: inline-block;
+
+}
+.slidee .innerSlide p
+{
+  color: rgba(255, 255, 255, 0.85);
+    font-size: 1.5em;
+    font-weight: 300;
+}
+.comments img
+{
+    border-radius: 50%;
+    float: left;
+    width: 17%;
+}
+.comments p
+{
+    padding-left: 70px;
+    font-weight: bold
+}
+
+.comments p span
+{
+    color:deeppink;
+   
+}
+.dateComments
+{
+        display: inline;
+    color: gray;
+    font-size: 11px;
+    margin-left: 50px;
+    bottom: 20px;
+    position: relative;
+    left: 25px;
+}
+.footer
+{
+    background-color: #eee;
+    border-top:5px solid #d50371;
+    padding-top: 10px;
+    margin-top: 20px;
+
+}
+.rowTwo
+{
+    padding: 30px;
+    line-height: 40px;
+    font-weight: bold;
+    margin-left: -12px;
+}
+.Article h3
+{
+    margin-bottom: 40px;
+    color:#d50371;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.Article img 
+{
+    border-radius: 10px;
+    
+}
+.copyRight
+{
+   padding: 20px;
+    border-top: 3px solid #ffffff;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
